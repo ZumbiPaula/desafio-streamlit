@@ -179,7 +179,7 @@ def atualiza_grafico(selecao1: str = 'Janeiro', selecao2: int = 2022, selecao6: 
 
         autosize=False,
         width=1200,
-        height=500,
+        height=400,
         margin=dict(
             # l=20,
             # r=20,
@@ -264,7 +264,7 @@ def atualiza_grafico_tensao(selecao1: str = 'Janeiro', selecao2: int = 2022, sel
 
         autosize=False,
         width=1200,
-        height=500,
+        height=400,
         margin=dict(
         ),
         title=f'Visualização do gráfico de Tensão do dia {selecao3} de {selecao1}/{selecao2}',
@@ -357,7 +357,7 @@ def atualiza_grafico_corrente(selecao1: str = 'Janeiro', selecao2: int = 2022, s
 
         autosize=False,
         width=1200,
-        height=500,
+        height=400,
         margin=dict(
         ),
         title=f'Visualização do gráfico de Corrente do dia {selecao3} de {selecao1}/{selecao2}',
@@ -432,7 +432,7 @@ def atualiza_grafico_potencia(selecao1: str = 'Janeiro', selecao2: int = 2022, s
 
         autosize=False,
         width=1200,
-        height=500,
+        height=400,
         margin=dict(
         ),
         title=f'Visualização do gráfico de Potência do dia {selecao3} de {selecao1}/{selecao2}',
