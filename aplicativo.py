@@ -348,8 +348,8 @@ def atualiza_grafico_corrente(selecao1: str = 'Janeiro', selecao2: int = 2022, s
 
         yaxis4=dict(
             # title = 'Data',
-            titlefont=dict(color='green'),
-            tickfont=dict(color='green'),
+            titlefont=dict(color='red'),
+            tickfont=dict(color='red'),
             overlaying='y',
             side='left',
             range=[0, 100],
